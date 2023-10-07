@@ -4,12 +4,14 @@ public class Rotate_array {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr[] = {1,2,3,4,5,6,7};
-		int k = 3;
+		// Leetcode 189
+		int arr[] = {-1,-100,3,99};
+		int k = 2;
 		k = k%arr.length;
-		rev(arr,0,k);
-		rev(arr,k+1,arr.length-1);
 		rev(arr,0,arr.length-1);
+		rev(arr,0,k-1);
+		rev(arr,k,arr.length-1);
+		
 		
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + " ");
