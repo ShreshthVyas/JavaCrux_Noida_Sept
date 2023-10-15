@@ -1,4 +1,4 @@
-package Package12;
+package Lecture12;
 
 public class FirstBadVersion_Leetcode {
 

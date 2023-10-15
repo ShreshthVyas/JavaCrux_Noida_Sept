@@ -1,4 +1,4 @@
-package Package11;
+package Lecture11;
 
 public class Maximum_Subarray_Sum {
 

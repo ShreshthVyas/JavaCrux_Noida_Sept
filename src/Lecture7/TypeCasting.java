@@ -15,7 +15,7 @@ public class TypeCasting {
 //		System.out.println(ch + bh);
 		
 //		char d =(int)('a' + 100000000);
-		char d =(int)('a' + 5);
+		char d = (int)('a'+5);
 		System.out.println(d);
 		System.out.println((char) ('a'+ 2));
 		System.out.println('.'+3);
