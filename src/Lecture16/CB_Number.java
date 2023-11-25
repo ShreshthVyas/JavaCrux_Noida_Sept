@@ -4,7 +4,6 @@ public class CB_Number {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		String s = "4991";
 		boolean arr[] =  new boolean[s.length()];
 		int count  =0;
