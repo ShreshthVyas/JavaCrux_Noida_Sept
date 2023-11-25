@@ -15,7 +15,6 @@ public class Fibonacci {
 		int f1 = fibo(n-1);
 		int f2 = fibo(n-2);
 		return f1 +f2;
-		
 	}
 
 }
